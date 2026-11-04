@@ -2,8 +2,7 @@ cask "december" do
   version "1.0,80"
   sha256 "0604a0359c6a01b529003a458188c2363046ccd759bcc76b6f64ab03c0621de9"
 
-  url "https://github.com/krl-sta/December-updates/releases/download/#{version.before_comma}.#{version.after_comma}/December-#{version.before_comma}-#{version.after_comma}-arm64.dmg",
-      verified: "github.com/krl-sta/December-updates/"
+  url "https://github.com/krl-sta/December-updates/releases/download/#{version.before_comma}.#{version.after_comma}/December-#{version.before_comma}-#{version.after_comma}-arm64.dmg"
   name "December"
   desc "Dual-pane file manager"
   homepage "https://github.com/krl-sta/December-updates"
@@ -16,7 +15,7 @@ cask "december" do
   auto_updates true
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "December.app"
 
