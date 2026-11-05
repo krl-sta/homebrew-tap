@@ -1,6 +1,6 @@
 cask "december" do
-  version "1.0,83"
-  sha256 "f663d4460ea7c17239dc423cf194a9eb6a9cf611f29fe633f0dd059fca26e27d"
+  version "1.0,85"
+  sha256 "e89a6ef5ec0cc6c73ebc06670142efb72b00586c463f8c208192e31dcf24c73c"
 
   url "https://github.com/krl-sta/December-updates/releases/download/#{version.csv.first}.#{version.csv.second}/December-#{version.csv.first}-#{version.csv.second}-arm64.dmg"
   name "December"
